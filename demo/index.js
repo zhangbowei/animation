@@ -74,7 +74,7 @@ function run() {
 		$rabbit2.style.backgroundImage = 'url(' + images[0] + ')';
 		$rabbit2.style.backgroundPosition = position[0] + 'px ' + position[1] + 'px';
 		$rabbit2.style.left = left + 'px';
-	}).repeat(1).wait(1000).changePosition($rabbit2, rabbitWinMap, images[2]).then(function () {
+	}).repeat(20).wait(1000).changePosition($rabbit2, rabbitWinMap, images[2]).then(function () {
 		console.log('finish');
 	});
 	runAnimation.start(interval);
